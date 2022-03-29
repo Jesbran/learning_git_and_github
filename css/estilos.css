@@ -7,10 +7,27 @@ body
     margin: 0;
     padding: 0;
 }
+#cabezera
+{
+    background: rgb(173, 0, 253);
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    margin: 0;
+    padding: 0.5em;
+}
+
+#cabezera #tagline
+{
+    padding: 0 0 0 2em;
+    font-weight: normal;
+    font-size: 0.7em;
+}
+
 #container
 {
     width: 70%;
-    padding: 1em;
+    padding: 0;
     text-align: left;
     border: 1px solid #ddd;
     margin: auto;
@@ -20,4 +37,8 @@ body
 {
     text-align: center;
     font-size: 40px;
+}
+#post
+{
+    padding: 1em;
 }
