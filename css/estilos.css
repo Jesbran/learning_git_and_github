@@ -1,7 +1,9 @@
 body
 {
-    background: rgb(65, 65, 65);
-    color: rgb(238, 238, 238);
+    background-image:url('../imagenes/fondo.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: rgb(46, 40, 40);
     text-align: center;
     font-family: "Arial";
     font-size: 25px;
@@ -39,12 +41,17 @@ body
     text-align: center;
     font-size: 40px;
 }
+#cabezera #logo
+{
+    width: 50px;
+    vertical-align: middle;
+}
 #hola
 {
     font-weight: bold;
 }
 #post
 {
-    background: white;
+    background: rgb(212, 206, 241);
     padding: 1em;
 }
